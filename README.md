@@ -5,7 +5,7 @@ Some shell scripts that most of them can be executed directly without cloning th
 Scripts:
 
 - `install`
-    - (Usage: `wget -O - https://raw.githubusercontent.com/handy-common-utils/shell-scripts/main/install/<file> | bash`)
+    - (Usage: `wget -O - https://raw.githubusercontent.com/handy-common-utils/shell-scripts/main/install/<file.sh> | bash`)
     - `awscli.sh` - Install AWS CLI
     - `conda3.sh` - Install miniconda3 to `~/miniconda3`
     - `ffmpeg.sh` - Install statically built `ffmpeg` and `ffprobe` to `/usr/local/ffmpeg/<version>` and symbol link excutables to `/user/bin`
