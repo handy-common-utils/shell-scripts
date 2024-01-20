@@ -8,8 +8,8 @@ Scripts:
     - (Usage: `wget -O - https://raw.githubusercontent.com/handy-common-utils/shell-scripts/main/install/<file.sh> | bash`)
     - `awscli.sh` - Install AWS CLI
     - `conda3.sh` - Install miniconda3 to `~/miniconda3`
-    - `ffmpeg.sh` - Install statically built `ffmpeg` and `ffprobe` to `/usr/local/ffmpeg/<version>` and symbol link excutables to `/user/bin`
-    - `git-lfs.sh` - Install git-lfs to `user/local/bin` and symbol link to `/usr/bin`
+    - `ffmpeg.sh` - Install statically built `ffmpeg` and `ffprobe`
+    - `git-lfs.sh` - Install git-lfs
 - `conda-env`
     - (Environment configuration files that can be used like this: `conda env create -n <name> --file <file-name.yml>`)
     - `create.sh` - Create Conda environment like this: `wget -O - https://raw.githubusercontent.com/handy-common-utils/shell-scripts/main/conda-env/create.sh | bash -s -- <name> https://raw.githubusercontent.com/handy-common-utils/shell-scripts/main/conda-env/<file.yml>`

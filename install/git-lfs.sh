@@ -8,7 +8,6 @@ cd git-lfs-*/
 sudo ./install.sh
 cd ..
 rm -rf git-lfs-*/
-sudo ln -s /usr/local/bin/git-lfs /usr/bin/git-lfs
 popd
 
 git lfs install
