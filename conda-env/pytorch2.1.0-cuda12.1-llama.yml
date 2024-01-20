@@ -6,7 +6,6 @@ channels:
 dependencies:
   - python=3.10
   - pytorch-cuda=12.1
-  - cudatoolkit=12.1
   - pip
   - pytorch=2.1.0
   - pytorch-mutex=1.0=cuda
