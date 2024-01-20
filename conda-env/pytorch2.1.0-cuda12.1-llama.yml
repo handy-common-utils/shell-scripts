@@ -1,0 +1,22 @@
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.10
+  - pytorch-cuda=12.1
+  - cudatoolkit=12.1
+  - pip
+  - pytorch=2.1.0
+  - pytorch-mutex=1.0=cuda
+  - torchaudio=2.1.0
+  - torchvision=0.16.0
+  
+  - pip:
+    - torch
+    - fairscale
+    - fire
+    - sentencepiece
+
+
